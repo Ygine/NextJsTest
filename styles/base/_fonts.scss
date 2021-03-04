@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Catamaran Light'), local('Catamaran-Light'),
+  url('../../public/fonts/Catamaran/Catamaranlight.woff2') format('woff2'),
+  url('../../public/fonts/Catamaran/Catamaranlight.woff') format('woff'),
+  url('../../public/fonts/Catamaran/Catamaranlight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Catamaran'), local('Catamaran-Regular'),
+  url('../../public/fonts/Catamaran/Catamaran.woff2') format('woff2'),
+  url('../../public/fonts/Catamaran/Catamaran.woff') format('woff'),
+  url('../../public/fonts/Catamaran/Catamaran.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Catamaran SemiBold'), local('Catamaran-SemiBold'),
+  url('../../public/fonts/Catamaran/Catamaransemibold.woff2') format('woff2'),
+  url('../../public/fonts/Catamaran/Catamaransemibold.woff') format('woff'),
+  url('../../public/fonts/Catamaran/Catamaransemibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Catamaran Thin'), local('Catamaran-Thin'),
+  url('../../public/fonts/Catamaran/Catamaranthin.woff2') format('woff2'),
+  url('../../public/fonts/Catamaran/Catamaranthin.woff') format('woff'),
+  url('../../public/fonts/Catamaran/Catamaranthin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Catamaran ExtraBold'), local('Catamaran-ExtraBold'),
+  url('../../public/fonts/Catamaran/Catamaranextrabold.woff2') format('woff2'),
+  url('../../public/fonts/Catamaran/Catamaranextrabold.woff') format('woff'),
+  url('../../public/fonts/Catamaran/Catamaranextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Catamaran Heavy'), local('Catamaran-Heavy'),
+  url('../../public/fonts/Catamaran/Catamaranheavy.woff2') format('woff2'),
+  url('../../public/fonts/Catamaran/Catamaranheavy.woff') format('woff'),
+  url('../../public/fonts/Catamaran/Catamaranheavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Catamaran Medium'), local('Catamaran-Medium'),
+  url('../../public/fonts/Catamaran/Catamaranmedium.woff2') format('woff2'),
+  url('../../public/fonts/Catamaran/Catamaranmedium.woff') format('woff'),
+  url('../../public/fonts/Catamaran/Catamaranmedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Catamaran ExtraLight'), local('Catamaran-ExtraLight'),
+  url('../../public/fonts/Catamaran/Catamaranextralight.woff2') format('woff2'),
+  url('../../public/fonts/Catamaran/Catamaranextralight.woff') format('woff'),
+  url('../../public/fonts/Catamaran/Catamaranextralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: local('Catamaran Bold'), local('Catamaran-Bold'),
+  url('../../public/fonts/Catamaran/Catamaranbold.woff2') format('woff2'),
+  url('../../public/fonts/Catamaran/Catamaranbold.woff') format('woff'),
+  url('../../public/fonts/Catamaran/Catamaranbold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Hairline'), local('Montserrat-Hairline'),
+  url('../../public/fonts/Montserrat/montserrathairline.woff2') format('woff2'),
+  url('../../public/fonts/Montserrat/montserrathairline.woff') format('woff'),
+  url('../../public/fonts/Montserrat/montserrathairline.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+  url('../../public/fonts/Montserrat/montserratlight.woff2') format('woff2'),
+  url('../../public/fonts/Montserrat/montserratlight.woff') format('woff'),
+  url('../../public/fonts/Montserrat/montserratlight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), local('Montserrat-Regular'),
+  url('../../public/fonts/Montserrat/montserrat.woff2') format('woff2'),
+  url('../../public/fonts/Montserrat/montserrat.woff') format('woff'),
+  url('../../public/fonts/Montserrat/montserrat.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+  url('../../public/fonts/Montserrat/montserratbold.woff2') format('woff2'),
+  url('../../public/fonts/Montserrat/montserratbold.woff') format('woff'),
+  url('../../public/fonts/Montserrat/montserratbold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Black'), local('Montserrat-Black'),
+  url('../../public/fonts/Montserrat/montserratblack.woff2') format('woff2'),
+  url('../../public/fonts/Montserrat/montserratblack.woff') format('woff'),
+  url('../../public/fonts/Montserrat/montserratblack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
+  url('../../public/fonts/Ubuntu/ubuntumedium.woff2') format('woff2'),
+  url('../../public/fonts/Ubuntu/ubuntumedium.woff') format('woff'),
+  url('../../public/fonts/Ubuntu/ubuntumedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}

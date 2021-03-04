@@ -1,0 +1,13 @@
+@keyframes :global( pulse ) {
+  0% {
+    transform: scaleX(1)
+  }
+
+  50% {
+    transform: scale3d(1.07,1.07,1.07)
+  }
+
+  100% {
+    transform: scaleX(1)
+  }
+}
