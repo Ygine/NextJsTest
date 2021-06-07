@@ -1,11 +1,10 @@
 import React from 'react';
 import Layout from '../src/components/layout';
-import utilStyles from '../styles/modules/utils.module.scss';
 import Link from 'next/link';
 import Head from 'next/head';
 // import { CSSTransition } from 'react-transition-group';
 
-import axios from 'axios';
+// import axios from 'axios';
 import { getSortedPostsData } from '../src/lib/posts'
 
 const Posts = ({posts = [], allPostsData=[]}) => {
@@ -26,11 +25,11 @@ const Posts = ({posts = [], allPostsData=[]}) => {
 
       <Layout home={false}>
 
-        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-          <h2 className={utilStyles.headingLg}>Blog</h2>
-          <ul className={utilStyles.list}>
+        <section>
+          <h2 >Blog</h2>
+          <ul >
               {allPostsData.map(({id, content, date, title}) => (
-              <li className={utilStyles.listItem} key={id}>
+              <li key={id}>
                 <Link href={'/post/[id]'} as={`/post/${id}`}>
                   <a>
                     {title}

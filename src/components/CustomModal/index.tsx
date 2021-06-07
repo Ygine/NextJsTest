@@ -42,7 +42,7 @@ const CustomModal: React.FC<ModalProps> = ({isOpen, closeModal, children}) => {
                   <div className={style.closeBtn} onClick={closeModal}>
                   </div>
                   <h2 className={style.modalTitle}>Newsletter</h2>
-                  <div>{children}</div>
+                  <div className="w-full">{children}</div>
               </div>
           </div>
 

@@ -1,0 +1,40 @@
+.themePanel{
+  background: #333;
+  width: 205px;
+  position: fixed;
+  top: 145px;
+  z-index: 99999;
+  border-radius: 0 0 4px 0;
+  transition: right 250ms linear;
+
+  div{
+    padding: 0 5px;
+  }
+
+  h2{
+    background: #282828;
+    color: #fff;
+    font-size: 14px;
+    line-height: 46px;
+    padding: 0 0 0 20px;
+    margin-top: 0;
+    font-weight: 600;
+
+    span{
+      background-color: #282828;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 46px;
+      position: absolute;
+      left: -46px;
+      top: 0;
+      width: 46px;
+      border-radius: 4px 0 0 4px;
+      font-size: 22px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}

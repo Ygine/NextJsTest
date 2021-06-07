@@ -19,7 +19,7 @@ class MyDocument extends Document {
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
-        <body>
+        <body data-themcontainer={""}>
         <Main />
           <NextScript />
         </body>

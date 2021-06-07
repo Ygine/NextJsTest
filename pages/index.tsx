@@ -1,15 +1,17 @@
 import * as React from 'react';
 import Head from 'next/head'
 import Layout, { siteTitle } from '../src/components/layout'
-import utilStyles from '@styles/modules/utils.module.scss'
+
 import Link from 'next/link'
 import modalTransition from '@styles/transitions/fade.module.scss';
 import {CSSTransition} from 'react-transition-group';
+
 
 import Modal from '@components/CustomModal'
 import Modal2 from '@components/ConfirmModal'
 
 import Deskera from "@public/images/deskera-logo.svg"
+
 
 export default function Home() {
   const [modalIsOpen, setModalIsOpen] = React.useState(false);
@@ -30,6 +32,7 @@ export default function Home() {
     console.log(false);
   };
 
+
   return (
     <Layout home>
       <>
@@ -48,9 +51,11 @@ export default function Home() {
         </button>
 
 
+        <p className="my-3 data-create-notes">lorem10</p>
+
         <button type="button"
                 onClick={() => setConfirmModal(true)}
-                className="py-2 px-4 bg-red-500 text-white font-semibold rounded-lg
+                className="py-2 px-4 text-sm bg-red-500 text-white font-semibold rounded-lg
                 shadow-md hover:bg-red-700 focus:outline-none">
           Confirm modal
         </button>
@@ -78,10 +83,9 @@ export default function Home() {
           />
         </CSSTransition>
 
-        <section className={utilStyles.headingMd}>
+        <section>
           <p>[Your Self Introduction]</p>
           <p>
-            1111111111111111111111111111111111111111111111111111111111111
             (This is a sample website - you’ll be building a site like this on{' '}
             <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
           </p>

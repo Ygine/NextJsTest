@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   min-height: 100vh;
   scroll-behavior: smooth;
-  font-size: 62.5%;
 }
 
 *,
@@ -18,7 +17,7 @@ body {
   color: #33374b;
   background-color: #fff;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 16px;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -55,6 +54,10 @@ ul, button{
   outline: none;
 }
 
+button:focus {
+  outline: none;
+}
+
 textarea {
   resize: none;
 }
@@ -86,3 +89,6 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+button{
+  font-size: 1.6rem;
+}

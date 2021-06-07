@@ -1,7 +1,8 @@
 .container {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   background-color: #eee;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.12)
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  min-height: 100vh;
 }
 
 .header {
@@ -11,15 +12,15 @@
 }
 
 .headerImage {
-  width: 6rem;
-  height: 6rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 .headerHomeImage {
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 .backToHome {
-  margin: 3rem 0 0;
+  margin: 5rem 0 0;
 }

@@ -1,11 +1,14 @@
 import styles from '@styles/modules/layout.module.scss'
-import utilStyles from '@styles/modules/utils.module.scss'
 import Link from 'next/link'
+import ThemePanel from "@components/ThemePanel";
+import * as React from "react";
 
-const name = 'Your Name';
 export const siteTitle = 'Next.js Sample Website';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home }:{
+  children: React.ReactNode
+  home?: boolean
+}) {
   return (
     <div className={styles.container}>
 
@@ -14,32 +17,18 @@ export default function Layout({ children, home }) {
           <>
             <img
               src="/images/icons/versel.svg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
+              className={`${styles.headerHomeImage}`}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+
           </>
         ) : (
-          <>
-            {/*<Link href="/">*/}
-            {/*  <a>*/}
-            {/*    <img*/}
-            {/*      src="/images/icons/versel.svg"*/}
-            {/*      className={`${styles.headerImage} ${utilStyles.borderCircle}`}*/}
-            {/*      alt={name}*/}
-            {/*    />*/}
-            {/*  </a>*/}
-            {/*</Link>*/}
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
+            null
         )}
       </header>
 
-      <main>{children}</main>
+      <main>{children}
+        <ThemePanel/>
+      </main>
 
       {!home && (
         <div className={styles.backToHome}>

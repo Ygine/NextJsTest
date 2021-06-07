@@ -1,0 +1,6 @@
+node_modules
+build
+dist
+*.snap
+.next
+.vscode
