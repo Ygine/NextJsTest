@@ -4,7 +4,7 @@ import '../styles/tailwind.css';
 import '../styles/globals.scss'
 import NextNprogress from 'nextjs-progressbar';
 import { wrapper } from '../src/store';
-import storage from '@public/js/storage';
+import storage from '../src/helpers/storage';
 
 const MyApp = ({ Component, pageProps }) => {
   // const state = useSelector(state => state);
