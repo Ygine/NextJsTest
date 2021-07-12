@@ -1,5 +1,5 @@
 import * as React from "react";
-import styles from '@styles/modules/layout.module.scss';
+import styles from '../../styles/modules/layout.module.scss';
 import Link from 'next/link';
 // import ThemePanel from "./ThemePanel";
 

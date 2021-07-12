@@ -3,14 +3,14 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../src/components/layout'
 
 import Link from 'next/link'
-import modalTransition from '@styles/transitions/fade.module.scss';
+import modalTransition from '../styles/transitions/fade.module.scss';
 import {CSSTransition} from 'react-transition-group';
 
 
-import Modal from '@components/CustomModal'
-import Modal2 from '@components/ConfirmModal'
+import Modal from '../src/components/CustomModal'
+import Modal2 from '../src/components/ConfirmModal'
 
-import Deskera from "@public/images/deskera-logo.svg"
+import Deskera from "../public/images/deskera-logo.svg"
 
 
 export default function Home() {
