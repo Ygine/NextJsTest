@@ -50,9 +50,6 @@ export default function Home() {
           <Deskera/>
         </button>
 
-
-        <p className="my-3 data-create-notes">lorem10</p>
-
         <button type="button"
                 onClick={() => setConfirmModal(true)}
                 className="py-2 px-4 text-sm bg-red-500 text-white font-semibold rounded-lg
@@ -90,11 +87,19 @@ export default function Home() {
             <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
           </p>
 
+          <div className="bg-white dark:bg-black">
+            11111
+          </div>
+
           <div dangerouslySetInnerHTML={{__html: '<p><b>TEST</b></p>'}} />;
           <br/>
           <br/>
           <Link href="/posts">
             <a> go on POSTS</a>
+          </Link>
+          <br/>
+          <Link href="/notes">
+            <a> go on Notes</a>
           </Link>
         </section>
       </>

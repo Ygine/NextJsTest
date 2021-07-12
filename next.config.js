@@ -4,6 +4,7 @@ const withPurgeCss = require('next-purgecss');
 // withPurgeCss(
 
 const nextConfig = {
+	reactStrictMode: true,
 	purgeCssPaths: [
 		'pages/**/*',
 		'src/components/**/*',
@@ -19,17 +20,17 @@ const nextConfig = {
 
 	webpack(config) {
 		config.module.rules.push(
-			// {
-			// 	test: /\.(woff2|woff|ttf|png|jpe?g|eot)(\?v=\d+\.\d+\.\d+)?$/,
-			// 	use: [
-			// 		{
-			// 			loader: 'url-loader',
-			// 			options: {
-			// 				esModule: false
-			// 			}
-			// 		}
-			// 	]
-			// },
+			{
+				test: /\.(woff2|woff|ttf|png|jpe?g|eot)(\?v=\d+\.\d+\.\d+)?$/,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							esModule: false
+						}
+					}
+				]
+			},
 			{
 				test: /\.svg$/,
 				issuer: {
