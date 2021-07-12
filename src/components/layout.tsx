@@ -1,6 +1,6 @@
 import styles from '@styles/modules/layout.module.scss'
 import Link from 'next/link'
-import ThemePanel from "@components/ThemePanel";
+import ThemePanel from "./ThemePanel";
 import * as React from "react";
 
 export const siteTitle = 'Next.js Sample Website';
