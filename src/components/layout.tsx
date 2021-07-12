@@ -28,7 +28,7 @@ export default function Layout({ children, home }:{
       </header>
 
       <main>{children}
-        <ThemePanel/>
+        {/*<ThemePanel/>*/}
       </main>
 
       {!home && (
