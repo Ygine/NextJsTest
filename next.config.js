@@ -4,7 +4,7 @@ const withPurgeCss = require('next-purgecss');
 // withPurgeCss(
 
 const nextConfig = {
-	reactStrictMode: true,
+	// reactStrictMode: true,
 	purgeCssPaths: [
 		'pages/**/*',
 		'src/components/**/*',
