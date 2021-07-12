@@ -6,10 +6,10 @@
 			{
 				"root": ["./"],
 				"alias": {
-					"@styles": "styles",
-					"@assets": "src/assets",
-					"@public": "public",
-					"@components": "src/components"
+					"@styles": "./styles",
+					"@assets": "./src/assets",
+					"@public": "./public",
+					"@components": "./src/components"
 				}
 			}
 		],
