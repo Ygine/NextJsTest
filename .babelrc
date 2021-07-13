@@ -8,6 +8,7 @@
 				"alias": {
 					"@styles": "./styles",
 					"@public": "./public",
+					"@assets": "./src/assets",
 					"@components": "./src/components"
 				}
 			}
